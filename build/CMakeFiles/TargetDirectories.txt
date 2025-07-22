@@ -1,0 +1,4 @@
+/home/ihealth/Dropbox/Trabajo/Proyectos/00 Alumnos/UV-EICB PIB/2025-1/[Guia PIB, Airways] Alan Tapia/Codes/Skeleton/build/CMakeFiles/mesh_a_3d_gray_image.dir
+/home/ihealth/Dropbox/Trabajo/Proyectos/00 Alumnos/UV-EICB PIB/2025-1/[Guia PIB, Airways] Alan Tapia/Codes/Skeleton/build/CMakeFiles/simple_mcfskel_example.dir
+/home/ihealth/Dropbox/Trabajo/Proyectos/00 Alumnos/UV-EICB PIB/2025-1/[Guia PIB, Airways] Alan Tapia/Codes/Skeleton/build/CMakeFiles/edit_cache.dir
+/home/ihealth/Dropbox/Trabajo/Proyectos/00 Alumnos/UV-EICB PIB/2025-1/[Guia PIB, Airways] Alan Tapia/Codes/Skeleton/build/CMakeFiles/rebuild_cache.dir

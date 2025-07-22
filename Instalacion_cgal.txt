@@ -1,0 +1,33 @@
+1. Crear una carpeta que se llame CGAL. Considerar el path para llegar a esta
+2. Instalar cmake
+
+sudo apt-get update
+sudo apt-get install cmake
+sudo apt-get install libboost-all-dev
+sudo apt-get install libeigen3-dev
+
+3. Descargar CGAL utilizando git. IMPORTANTE: CAMBIAR LA DIRECCIÖN EN EL PREFIJO
+
+git clone https://github.com/CGAL/cgal.git
+cd cgal
+mkdir build && cd build
+cmake .. -DCMAKE_INSTALL_PREFIX=/home/david/Programs/CGAL
+make -j4     # (ajusta 4 por la cantidad de cores)
+make install
+
+4. Cambiar a la carpeta donde tienes el programa de skeletización con los .cpp 
+
+
+mkdir build
+cd build
+cmake ..
+make -j4
+
+
+NOTAS: 
+    - Asegurate de cambiar el path del CMakeList.txt.
+    - Si sale un error relacionado a conda y boost, prueba el siguiente comando 
+        conda install -c conda-forge boost cmake
+
+
+

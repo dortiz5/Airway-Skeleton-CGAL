@@ -1,0 +1,14 @@
+name: airway_skeleton_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10          # Puedes ajustar la versión si lo necesitas
+  - numpy
+  - scipy
+  - scikit-image
+  - nibabel
+  - meshio
+  - pip
+  - pip:
+      - meshio           # meshio también está en pip, pero conda-forge es preferible
